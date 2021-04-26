@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="653.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="MenuPrincipal.MenuPrincipalController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="653.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Dispositivos">
+              <items>
+                <MenuItem fx:id="MenuGestionDispositivos" mnemonicParsing="false" text="GestionarDispositivos" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Acciones">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Acciones con Dispositivos" />
+                  <MenuItem mnemonicParsing="false" text="Acciones Externas con Dispositivos" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Reportes">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Bitacora" />
+                  <MenuItem mnemonicParsing="false" text="Dispositivos asociados a cada usuario" />
+                  <MenuItem mnemonicParsing="false" text="Bitácora de ingreso al programa" />
+                  <MenuItem mnemonicParsing="false" text="Reporte de archivos almacenados en dispositivos" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Usuarios">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Gestionar usuarios" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="Reportes.Bitacora_ingreso_sistemaController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Bitácora de ingreso al sistema">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="64.0" text="Fecha de inicio:" />
+      <Label layoutX="317.0" layoutY="64.0" text="Fecha de Fin:" />
+      <Label layoutX="21.0" layoutY="96.0" text="Seleccione usuario:" />
+      <Label layoutX="21.0" layoutY="123.0" text="Fecha de generación: " />
+      <Label layoutX="317.0" layoutY="123.0" text="Hora de generación:" />
+      <DatePicker layoutX="109.0" layoutY="60.0" />
+      <DatePicker layoutX="401.0" layoutY="60.0" />
+      <MenuButton layoutX="137.0" layoutY="92.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="440.0" text="Seleccione correo electrónico">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Button layoutX="472.0" layoutY="17.0" mnemonicParsing="false" text="Exportar reporte" />
+      <TableView layoutX="4.0" layoutY="154.0" prefHeight="238.0" prefWidth="589.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="No. de Línea" />
+          <TableColumn prefWidth="278.0" text="Correo electrónico" />
+            <TableColumn prefWidth="136.0" text="Fecha de ingreso" />
+            <TableColumn prefWidth="99.0" text="Hora de ingreso" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

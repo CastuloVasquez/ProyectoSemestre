@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="174.0" prefWidth="436.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="Botones_Acciones.Mensaje_recibir_llamadaController">
+   <children>
+      <ImageView fitHeight="39.0" fitWidth="91.0" layoutX="31.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../advertencia.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="146.0" layoutY="46.0" text="Se recibe llamada" />
+      <Button layoutX="112.0" layoutY="117.0" mnemonicParsing="false" text="Recibir Llamada" />
+      <Button layoutX="239.0" layoutY="117.0" mnemonicParsing="false" text="Rechazar Llamada" />
+   </children>
+</AnchorPane>

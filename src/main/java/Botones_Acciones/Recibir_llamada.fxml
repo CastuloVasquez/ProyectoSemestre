@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="Botones_Acciones.Recibir_llamadaController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Recibir Llamada">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TableView layoutX="14.0" layoutY="62.0" prefHeight="314.0" prefWidth="580.0">
+        <columns>
+          <TableColumn prefWidth="579.0" text="Número de Teléfono Remitente" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

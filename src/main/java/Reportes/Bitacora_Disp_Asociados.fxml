@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="650.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="Reportes.Bitacora_Disp_AsociadosController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Dispositivo asociado a cada usuario">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="58.0" text="Seleccione usuario:" />
+      <Label layoutX="14.0" layoutY="90.0" text="Fecha de generación: " />
+      <Label layoutX="332.0" layoutY="90.0" text="Hora de generación:" />
+      <MenuButton layoutX="132.0" layoutY="54.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="455.0" text="Seleccione correo electrónico">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Button layoutX="483.0" layoutY="17.0" mnemonicParsing="false" text="Exportar reporte" />
+      <TableView layoutX="5.0" layoutY="116.0" prefHeight="280.0" prefWidth="638.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="No. de Línea" />
+          <TableColumn prefWidth="126.0" text="Correo electrónico" />
+            <TableColumn prefWidth="157.0" text="Tipo de dispositivo" />
+            <TableColumn prefWidth="143.0" text="Nombre de Dispositivo" />
+            <TableColumn prefWidth="136.0" text="Estado de Dispositivo" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
