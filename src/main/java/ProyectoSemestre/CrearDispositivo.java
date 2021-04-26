@@ -77,8 +77,6 @@ public class CrearDispositivo {
         this.nombreEvento = nombreEvento;
     }
     
-    
-
     public boolean isLlamadaRecibida() {
         return llamadaRecibida;
     }
